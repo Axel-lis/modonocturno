@@ -6,7 +6,7 @@ check.addEventListener('change', function(){
     if(this.checked==true){
         box.setAttribute('style','background-color:white')
         ball.setAttribute('style','transform:translatex(100%);')
-        document.body.setAttribute('style', 'background-color:black; color:white')
+        document.body.setAttribute('style', 'background-color:#191919; color:white')
     }
 
     if(this.checked==false){
